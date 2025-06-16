@@ -1,0 +1,12 @@
+-- 데이터 행간 합산 함수
+  ct.diff
+    ex) df.col1.ct.diff(1)
+      --> 1차이만큼로 -
+
+-- col 형식 변경
+  -- pd.to_datetime()
+    :: datetime 형식으로 변경
+
+-- datetime 형식
+  -- dt.strftime('')
+    --ex df.col1.dt.strftime('%Y%m%d')
