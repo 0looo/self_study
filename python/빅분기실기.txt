@@ -1,3 +1,9 @@
+-- 참고함수
+  -- help()
+    :: 자세한 함수 설명이 필요한 경우
+  -- dir()
+    :: 사용가능한 함수 목록 출력
+
 -- 데이터 행간 합산 함수
   ct.diff
     ex) df.col1.ct.diff(1)
@@ -10,3 +16,9 @@
 -- datetime 형식
   -- dt.strftime('')
     --ex df.col1.dt.strftime('%Y%m%d')
+
+-- 수치적 데이터 관련 함수
+  ## 4분위수
+    -- quantile()
+
+
