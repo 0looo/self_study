@@ -25,3 +25,23 @@
     -- quantile()
 
 
+
+########### part 2 #############
+## 순서대로 사용되는 함수
+## 전처리
+  fillna : null 처리
+
+## 수치형 / non 수치형 컬럼 확인 및 분리
+  select_dtyoes(excluede='object')
+  ## 수치형 수치 변경
+  from sklearn.preprocessing import StandardScaler, MinMaxScaler
+  #### standar, minmax 모두 사용해보고 높은걸로 ㄱㄱ
+
+  ## object 
+  ## 원핫인코딩
+    pd.get_dummies()
+
+
+  
+
+
