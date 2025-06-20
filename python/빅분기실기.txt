@@ -7,14 +7,15 @@
     :: library에 하위 함수들 전체 출력
     :: ex) sklearn.__all__
 
--- 데이터 행간 합산 함수
+## 데이터 행간 합산 함수
   ct.diff
     ex) df.col1.ct.diff(1)
       --> 1차이만큼로 -
 
--- col 형식 변경
+## col 형식 변경
   -- pd.to_datetime()
     :: datetime 형식으로 변경
+  -- col.astype()
 
 -- datetime 형식
   -- dt.strftime('')
@@ -23,6 +24,10 @@
 -- 수치적 데이터 관련 함수
   ## 4분위수
     -- quantile()
+
+## 통계 확인
+  iqr - 박스플롯 사용시 
+
 
 
 
@@ -40,6 +45,12 @@
   ## object 
   ## 원핫인코딩
     pd.get_dummies()
+
+
+######## part 3 ###########
+
+## std, var => 모분산, 표본분산에 따라 parameter 설정해야됨 ### 
+
 
 
   
